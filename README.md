@@ -14,7 +14,7 @@ Documentation: [English version](https://github.com/mjjonone/mjj/blob/main/READM
 - 修复glitch的封禁问题，如需使用，请尽快更新到新版本
 ---
 
-推荐使用固定隧道。
+推荐使用临时隧道。
 
 ---
 保活使用uptimerobot监控项目网址，如果不会使用，自行搜索。[网站地址](https://uptimerobot.com)
@@ -99,4 +99,4 @@ Minecraft相关的服务器(同时支持通过网址`/list`查看节点信息和
 说明链接：[https://github.com/fscarmen2/Argo-X-Container-PaaS/blob/main/README.md](https://github.com/fscarmen2/Argo-X-Container-PaaS/blob/main/README.md)
 
 > 鸣谢
-F佬，3K佬，WL佬，HF佬
+F佬，3Kmf佬，WL佬，HF佬
