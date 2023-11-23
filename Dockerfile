@@ -1,21 +1,21 @@
 
-FROM node:slim
+FROM node:bullseye-slim
 
 WORKDIR /app
 ENV TZ="Asia/Shanghai" \
   NODE_ENV="production"
 
-COPY cc package.json index.js start.sh /app/
+COPY package.json index.js start.sh /app/
  
 EXPOSE 3000
 
 
-RUN chmod 777 cc package.json index.js start.sh /app &&\
+RUN chmod 777 package.json index.js start.sh /app &&\
   apt-get update && \
-  apt-get install -y iproute2  coreutils  procps curl && \
+  apt-get install -y curl && \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
-    npm install
+  npm install
 
 
 CMD ["node", "index.js"]
